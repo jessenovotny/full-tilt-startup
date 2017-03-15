@@ -321,7 +321,8 @@ INTRO
   color: #ffffff;
 }
 .text-intro span {
-  color: #011638;
+  color: #ffffff;
+  /*color: #011638;*/
 }
 @media (min-width: 1200px) {
   .text-intro {
