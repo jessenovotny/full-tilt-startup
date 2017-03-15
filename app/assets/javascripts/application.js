@@ -18,5 +18,7 @@
 //= require jquery.simple-text-rotator.min
 //= require jquery.scrollTo.min
 //= require owl.carousel.min
+//= require jqBootstrapValidation
+//= require contact_me
 //= require front.js
 //= require_tree .

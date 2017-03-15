@@ -1,6 +1,6 @@
 /*Contact*/
 #contact {
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 #contact .contact-heading {
@@ -8,10 +8,10 @@
 }
 
 #contact .contact-heading h2 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
 	font-weight: 700;
-	font-size: 45px;
-	text-transform: uppercase;
+	font-size: 38px;
 }
 
 #contact .contact-heading p {
@@ -78,7 +78,7 @@
 }
 
 #get-touch .content {
-	margin-top: 50px;
+	margin-top: 24px;
 }
 
 #get-touch .content .form input {
@@ -99,7 +99,7 @@
 }
 
 #get-touch .content .form .submit .btn {
-	margin-top: 25px;
+	margin-top: 15px;
 	background-color: transparent;
 	color: #7e7e7e;
 	border-color: #01b1d7;
