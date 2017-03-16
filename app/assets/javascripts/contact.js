@@ -33,7 +33,7 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Enable button & show success message
-                    $("#sendmessage").html(`Thanks for reaching out ${firstName}! I'll be in touch.`)
+                    $("#sendmessage").html('Thanks for reaching out ' + firstName + "! I'll be in touch.")
                         .css("display", "block")
                     $("#contactSubmit").attr("disabled", false);
 
@@ -42,7 +42,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message                
-                    $("#errormessage").html(`Well ${firstName}, this is embarrasing. For now, try emailing me at: <a href="mailto:jesse@fulltiltdev.com">jesse@fulltiltdev.com</a>`)
+                    $("#errormessage").html("Well " + firstName + ", this is embarrasing. For now, try emailing me at: <a href='mailto:jesse@fulltiltdev.com'>jesse@fulltiltdev.com</a>")
                         .css("display", "block")
 
                     //clear all fields
