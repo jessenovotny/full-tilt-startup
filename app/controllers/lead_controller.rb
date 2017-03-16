@@ -1,5 +1,5 @@
 class LeadController < ApplicationController
-  # before_action :set_lead
+  before_action :set_lead
   def contact
     # LeadMailer.send_msg(@lead, params[:message]).deliver_now
   end
@@ -15,7 +15,7 @@ class LeadController < ApplicationController
   end
 
   def update_lead
-    params.require(:lead).permit(:name, :email, :phone)
+    params.require(:lead).permit(:name, :email, :phone, :website)
   end
 
   def set_lead

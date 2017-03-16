@@ -12,8 +12,8 @@
           <div id="errormessage"></div>
           
           <form  class="form contactForm" id="contactForm" novalidate data-remote="true" >
-            <div class="col-md-4">
-              <div class="form-group">
+            <div class="col-md-4 control-group">
+              <div class="form-group controls">
 
                 <input type="text" name="lead[name]" class="form-control" id="name" placeholder="Name" data-validation-required-message="Please enter your name." required/>
 
@@ -21,8 +21,8 @@
               </div>
             </div>
             
-            <div class="col-md-4">
-              <div class="form-group">
+            <div class="col-md-4 control-group">
+              <div class="form-group controls">
 
                 <input type="email" class="form-control" name="lead[email]" id="email" placeholder="Email" data-validation-email-message="You must enter an email" required/>
 
@@ -30,8 +30,8 @@
               </div>
             </div>
             
-            <div class="col-md-4">
-              <div class="form-group">
+            <div class="col-md-4 control-group">
+              <div class="form-group controls">
 
                 <input type="text" class="form-control" name="website" id="website" placeholder="Website" data-rule="minlen:4" data-msg="Please enter at least 8 characters" required/>
 
@@ -39,10 +39,10 @@
               </div>
             </div>
             
-            <div class="col-md-12">
-              <div class="form-group">
+            <div class="col-md-12 control-group">
+              <div class="form-group controls">
 
-                <textarea class="form-control" name="message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message" minlength="10" required></textarea>
 
                 <div class="validation"></div>
               </div>

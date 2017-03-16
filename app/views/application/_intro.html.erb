@@ -10,20 +10,23 @@
       <div class="col-md-12">
         <p>See if Full Tilt Development is the right fit for you</p>
         <p>Browse our testimonials or get a FREE copy of my <strong>Digital Presence Playbook</strong></p>
-        <form class="form-inline margin-top sign-up-form">
-          <input id="email_intro" type="email" placeholder="name@email.com" class="form-control">
+        <div class="col-sm-8 col-sm-offset-2" id="intro_optin_message">
+          <div id="intro_optin_sent"></div>
+          <div id="intro_optin_error"></div>
+        </div>
+
+        <form class="form-inline margin-top sign-up-form" id="intro-offer" >
+          <input id="email" type="email" placeholder="name@email.com" class="form-control" required />
           <input id="submit_intro" type="submit" value="Get Your FREE Playbook Now" class="btn btn-primary">
         </form>
+
       </div>
       <div class="col-md-12 col-lg-8 col-lg-offset-2">
-        <!-- <p class="margin-bottom--zero"> -->
-        <div style="width:80%; max-width: 600px; height:100%; margin: 10px auto 0;">
+        <!-- <div style="width:80%; max-width: 600px; height:100%; margin: 10px auto 0;">
           <div style="position:relative; padding-top: 56%;">
             <iframe src="https://www.youtube.com/embed/Ko-ePkV-uMg" style="position:absolute;top:0;left:0;width:100%; height:100%;"></iframe>
           </div>
-        </div>
-          <%#= image_tag("intro-slide.png", class: "img-responsive") %>
-        <!-- </p> -->
+        </div> -->
       </div>
     </div>
   </div>

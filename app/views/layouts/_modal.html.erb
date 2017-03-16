@@ -2,19 +2,31 @@
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" data-dismiss="modal" aria-hidden="true" class="close">×</button>
-        <h4 class="modal-title text-center">Get started</h4>
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close" id="close-modal">×</button>
+        <h4 class="modal-title text-center">Digital Presence Playbook</h4>
       </div>
       <div class="modal-body">
-        <form action="#" method="post">
-          <div class="form-group">
-            <input id="email_modal" type="text" placeholder="name@company.com" class="form-control">
+        <p>This FREE guide will help if you are...</p>
+        <ul>
+          <li>Looking for ways to improve traffic and/or online conversions.</li>
+          <li>Needing direction on web development.</li>
+          <li>Vetting me for a full time or contract position.</li>
+        </ul>
+
+        <div id="modal_optin_sent"></div>
+        <div id="modal_optin_error"></div>
+
+        <form id="modal-offer">
+          <div class="form-group control-group">
+            <div class="controls">              
+              <input id="email" type="email" placeholder="name@email.com" class="form-control" required />
+            </div>
           </div>
           <p class="text-center">
-            <button class="btn btn-primary"><i class="pe-7s-magic-wand"></i> Sign up</button>
+            <button class="btn btn-primary" type="submit"><i class="pe-7s-magic-wand"></i> Get Your FREE Playbook Now</button>
           </p>
         </form>
-        <p class="text-center text-muted">Effects present letters inquiry no an removed or friends. Desire behind latter me though in.</p>
+        <p class="text-center text-muted">* I promise not to sell or distribute your email address.</p>
       </div>
     </div>
   </div>
