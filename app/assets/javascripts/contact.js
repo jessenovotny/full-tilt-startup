@@ -27,9 +27,9 @@ $(function() {
           lead: {            
             name: name,
             website: website,
-            email: email,
-            message: message
-          }
+            email: email
+          },
+          message: message
         },
         cache: false,
         success: function() {
