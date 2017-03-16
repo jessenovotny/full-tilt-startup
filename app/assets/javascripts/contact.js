@@ -42,7 +42,7 @@ $(function() {
                 },
                 error: function() {
                     // Fail message                
-                    $("#errormessage").html("Well " + firstName + ", this is embarrasing. For now, try emailing me at: <a href='mailto:jesse@fulltiltdev.com'>jesse@fulltiltdev.com</a>")
+                    $("#errormessage").html("Well " + firstName + ', this is embarrasing. For now, try emailing me at: <a href="mailto:jesse@fulltiltdev.com" target="_blank">jesse@fulltiltdev.com</a>')
                         .css("display", "block")
 
                     //clear all fields

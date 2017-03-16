@@ -1,5 +1,5 @@
 class LeadController < ApplicationController
-  before_action :set_lead
+  # before_action :set_lead
   def contact
     # LeadMailer.send_msg(@lead, params[:message]).deliver_now
   end
