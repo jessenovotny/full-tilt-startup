@@ -16,8 +16,34 @@
           <div id="intro_optin_error"></div>
         </div>
 
-        <form class="form form-inline margin-top sign-up-form" id="intro-offer" data-remote="true" novalidate >
-          <input type="text" name="lead[name]" class="form-control" id="name" placeholder="Name" data-validation-required-message="Please enter your name." required/>
+
+        <form  class="form contactForm" id="contactForm" novalidate data-remote="true" >
+            
+            
+            <div class="col-md-4 control-group">
+              <div class="form-group controls">
+                <input type="email" class="form-control" name="lead[email]" id="email" placeholder="Email" data-validation-email-message="You must enter an email" required/>
+                <div class="validation"></div>
+              </div>
+            </div>
+            
+
+            <div class="col-md-12">
+              <div id="contact_sent"></div>
+              <div id="contact_error"></div>
+            </div>
+            
+            <div class="row">              
+              <div class="submit">
+                <button class="btn btn-default" type="submit" id="contactSubmit">Send Now</button>
+              </div>
+            </div>
+          </form>
+
+
+
+
+        <form class="form form-inline margin-top sign-up-form" id="intro-offer" data-remote="true" autocomplete="on" novalidate >
           <input type="email" id="email" name="lead[email]" placeholder="Email" class="form-control" autocomplete="on" required />
           <input id="submit_intro" type="submit" value="Get Your FREE Playbook Now" class="btn btn-primary">
         </form>
