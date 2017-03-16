@@ -34,19 +34,19 @@ $(function() {
         cache: false,
         success: function() {
           // Enable button & show success message
-          $("#sendmessage").html('Thanks for reaching out ' + firstName + "! I'll be in touch.").slideDown()
+          $("#contact_sent").html('Thanks for reaching out ' + firstName + "! I'll be in touch.").slideDown()
           $("#contactSubmit").attr("disabled", false);
 
           //clear all fields
           $('#contactForm').trigger("reset");
 
           setTimeout(function(){ 
-            $("#sendmessage").slideUp()
+            $("#contact_sent").slideUp()
           }, 3000)
         },
         error: function() {
           // Fail message
-          $("#errormessage").html("Well " + firstName + ', this is embarrasing. For now, try emailing me at: <a href="mailto:jesse@fulltiltdev.com" target="_blank">jesse@fulltiltdev.com</a>')
+          $("#contact_error").html("Well " + firstName + ', this is embarrasing. For now, try emailing me at: <a href="mailto:jesse@fulltiltdev.com" target="_blank">jesse@fulltiltdev.com</a>')
               .slideDown()
 
           //clear all fields

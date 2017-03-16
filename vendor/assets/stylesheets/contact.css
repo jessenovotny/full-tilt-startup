@@ -29,7 +29,7 @@
     font-size:13px;
 }
 
-#sendmessage, #inline_optin_sent, #intro_optin_sent, #modal_optin_sent {
+#contact_sent, #inline_optin_sent, #intro_optin_sent, #modal_optin_sent {
     color: green;
     border:1px solid green;
     display:none;
@@ -39,7 +39,7 @@
     margin-bottom:15px;
 }
 
-#errormessage, #inline_optin_error, #intro_optin_error, #modal_optin_error {
+#contact_error, #inline_optin_error, #intro_optin_error, #modal_optin_error {
     color: red;
     display:none;
     border:1px solid red;
