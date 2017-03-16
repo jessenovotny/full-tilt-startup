@@ -8,40 +8,48 @@
               <h2>How can I help?</h2> 
             </div>
 
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="sendmessage"></div>
           <div id="errormessage"></div>
           
-          <form action="" method="post" role="form" class="form contactForm">
+          <form  class="form contactForm" id="contactForm" novalidate data-remote="true" >
             <div class="col-md-4">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Please enter at least 4 characters" />
+
+                <input type="text" name="lead[name]" class="form-control" id="name" placeholder="Name" data-validation-required-message="Please enter your name." required/>
+
                 <div class="validation"></div>
               </div>
             </div>
             
             <div class="col-md-4">
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
+
+                <input type="email" class="form-control" name="lead[email]" id="email" placeholder="Email" data-validation-email-message="You must enter an email" required/>
+
                 <div class="validation"></div>
               </div>
             </div>
             
             <div class="col-md-4">
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 characters" />
+
+                <input type="tel" class="form-control" name="lead[phone]" id="phone" placeholder="Phone (optional)" data-rule="minlen:4" data-msg="Please enter at least 8 characters" required/>
+
                 <div class="validation"></div>
               </div>
             </div>
             
             <div class="col-md-12">
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+
+                <textarea class="form-control" name="message" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
+
                 <div class="validation"></div>
               </div>
-             </div>
-            
+            </div>
             <div class="submit">
-              <button class="btn btn-default" type="submit">Send Now</button>
+            <div id="contactSuccess"></div>
+              <button class="btn btn-default" type="submit" id="contactSubmit">Send Now</button>
             </div>
           </form>
         </div>

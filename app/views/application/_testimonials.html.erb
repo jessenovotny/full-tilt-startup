@@ -3,11 +3,12 @@
     <h2 class="text-center">       
       Don't take my word for it
     </h2>
-    <p class="lead text-center">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.  </p>
+    <p class="lead text-center">One of the best parts about my job is working with startups and small business owners rather than huge companies. Here's what they have to say about my efforts:</p>
     <div class="row"> 
       <div class="col-md-12">
         <ul class="owl-carousel testimonials same-height-row">
-          <li class="item">
+          <%= render partial: "testimonial", collection: @testimonials %>
+          <!-- <li class="item">
             <div class="testimonial same-height-always">
               <div class="text">
                 <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
@@ -82,7 +83,7 @@
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>

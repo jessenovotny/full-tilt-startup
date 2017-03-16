@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root to: 'application#index'
-  # get '/contact', to: 'application#contact'
-  # get '/testimonials', to: 'application#testimonials'
+  post '/contact', to: 'lead#contact'
+  post '/optin', to: 'lead#optin'
 end

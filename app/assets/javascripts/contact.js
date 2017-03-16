@@ -1,5 +1,4 @@
 $(function() {
-
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -15,13 +14,14 @@ $(function() {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
-            var firstName = name; // For Success/Failure Message
+            
             // Check for white space in name for Success/Fail message
+            var firstName = name;
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "/contact-form",
+                url: "/contact",
                 type: "POST",
                 data: {
                     name: name,
@@ -33,26 +33,18 @@ $(function() {
                 cache: false,
                 success: function() {
                     // Enable button & show success message
-                    // debugger;
+                    $("#sendmessage").html(`Thanks for reaching out ${firstName}! I'll be in touch.`)
+                        .css("display", "block")
                     $("#contactSubmit").attr("disabled", false);
-                    $('#contactSuccess').html("<div class='alert alert-success'>");
-                    $('#contactSuccess > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#contactSuccess > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
-                    $('#contactSuccess > .alert-success')
-                        .append('</div>');
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
                 error: function() {
-                    // Fail message
-                    $('#contactSuccess').html("<div class='alert alert-danger'>");
-                    $('#contactSuccess > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-                        .append("</button>");
-                    $('#contactSuccess > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
-                    $('#contactSuccess > .alert-danger').append('</div>');
+                    // Fail message                
+                    $("#errormessage").html(`Well ${firstName}, this is embarrasing. For now, try emailing me at: <a href="mailto:jesse@fulltiltdev.com">jesse@fulltiltdev.com</a>`)
+                        .css("display", "block")
+
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
