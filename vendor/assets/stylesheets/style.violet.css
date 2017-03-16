@@ -1688,7 +1688,7 @@ h6,
 }
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: 45px;
 }
 h2,
 .h2 {
@@ -1733,6 +1733,10 @@ p {
 @media (min-width: 768px) {
   .lead {
     font-size: 24px;
+  }
+  h1,
+  .h1 {
+    font-size: 48px;
   }
 }
 .text-small {
