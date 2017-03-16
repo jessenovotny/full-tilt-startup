@@ -2,6 +2,9 @@
   .modal-content, .modal-dialog {
     width: 500px;
   }
+  #video-container {
+    margin-top: 25px;
+  }
 }
 
 @media screen and (max-width: 480px) {
