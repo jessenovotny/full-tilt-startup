@@ -16,9 +16,9 @@
           <div id="intro_optin_error"></div>
         </div>
 
-        <form class="form form-inline margin-top sign-up-form" id="intro-offer" novalidate >
-          <input type="text" name="lead[name]" class="form-control" id="name" placeholder="Name" data-validation-required-message="Please enter your name." style="display:none;" />
-          <input id="email" type="email" name="lead[email]" placeholder="Email" class="form-control" autocomplete="on" required />
+        <form class="form form-inline margin-top sign-up-form" id="intro-offer" data-remote="true" novalidate >
+          <input type="email" class="form-control" name="lead[email]" id="email" placeholder="Email" data-validation-email-message="You must enter an email" required/>
+          <input type="email" id="email" name="lead[email]" placeholder="Email" class="form-control" autocomplete="on" required />
           <input id="submit_intro" type="submit" value="Get Your FREE Playbook Now" class="btn btn-primary">
         </form>
 
