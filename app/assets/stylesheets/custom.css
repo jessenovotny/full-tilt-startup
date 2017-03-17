@@ -43,7 +43,7 @@ section#testimonials h2 {
 
 /* PREVENT SIDEWAYS SCROLL*/
 
-body {
+html, body {
   overflow-x: hidden;
 }
 
