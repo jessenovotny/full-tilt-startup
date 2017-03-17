@@ -1,1 +1,14 @@
-This is a message to Jesse Novotny notifying him that someone submitted the contact form.
+<h3>Hello Jesse,</h3>
+
+<p>It's a fine day for someone to contact you ;)</p>
+
+
+<p>Message details:</p>
+<ul>
+  <li>Name: <%= @lead.name %></li>
+  <li>Email: <%= @lead.email %></li>
+  <li>Website: <a href="<%= @lead.website %>"><%= @lead.website %></a></li>
+</ul>
+
+<p>Message:</p>
+<p><%= @msg %></p>

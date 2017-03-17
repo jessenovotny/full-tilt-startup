@@ -9,6 +9,7 @@ class LeadController < ApplicationController
 
   def optin
     LeadMailer.send_offer(@lead).deliver_now
+    LeadMailer.optin_notify(@lead).deliver_now
   end
 
   private
@@ -24,4 +25,5 @@ class LeadController < ApplicationController
   def set_lead
     @lead = Lead.find_or_create_by(lead_params)    
   end
+  
 end
