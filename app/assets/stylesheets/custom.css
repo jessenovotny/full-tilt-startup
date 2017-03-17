@@ -39,15 +39,15 @@ section#testimonials h2 {
   ul.testimonials {
     margin-bottom: 20px;
   }
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 }
 
 /* PREVENT SIDEWAYS SCROLL*/
 
-html, body {
-  overflow-x: hidden;
-}
 
-body {
-  position: relative
-}
 
