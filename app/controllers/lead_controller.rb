@@ -4,7 +4,7 @@ class LeadController < ApplicationController
   def contact
     update_lead
     LeadMailer.send_msg(@lead, params[:message]).deliver_now
-    LeadMailer.send_msg_confirmation(@lead, params[:message]).deliver_now
+    LeadMailer.send_msg_confirm(@lead, params[:message]).deliver_now
   end
 
   def optin
