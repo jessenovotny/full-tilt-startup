@@ -1,5 +1,4 @@
 class LeadMailer < ApplicationMailer
-  default from: 'Jesse Novotny <hello@fulltiltdev.com>'
 
   def send_offer lead
     @lead  = lead
@@ -10,11 +9,11 @@ class LeadMailer < ApplicationMailer
   def send_msg lead, msg
     @lead = lead
     @msg = msg
-    mail to: "hello@fulltiltdev.com", from: "#{lead.name} <#{lead.email}>", reply_to: "<#{lead.email}>"
+    mail(to: "hello@fulltiltdev.com", subject: "Full Tilt Contact from #{lead.name}", reply_to: lead.email)
   end
 
   def send_msg_confirm lead, msg
     @lead = lead
-    mail to: lead.email
+    mail to: lead.email, subject: "Thanks for reaching out!"
   end
 end

@@ -18,7 +18,7 @@ class LeadController < ApplicationController
   end
 
   def update_lead
-    params.require(:lead).permit(:name, :email, :phone, :website)
+    @lead.update(params.require(:lead).permit(:name, :email, :phone, :website)) if @lead
   end
 
   def set_lead
