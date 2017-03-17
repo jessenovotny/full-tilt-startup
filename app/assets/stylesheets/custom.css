@@ -32,11 +32,18 @@ section#testimonials h2 {
   #intro {
     padding-top: 25px;
   }
+  section {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  ul.testimonials {
+    margin-bottom: 20px;
+  }
 }
 
 /* PREVENT SIDEWAYS SCROLL*/
 
-html, body {
+body {
   overflow-x: hidden;
 }
 
