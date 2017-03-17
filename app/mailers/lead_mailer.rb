@@ -3,6 +3,7 @@ class LeadMailer < ApplicationMailer
   def send_offer lead
     @lead  = lead
     # set playbook attachment
+    # attachments["Master Your Digital Presence Playbook.pdf"] = File.read('app/assets/documents/playbook.pdf')
     mail to: lead.email, subject: "playbook", bcc: 'hello@fulltiltdev.com'
   end
 
