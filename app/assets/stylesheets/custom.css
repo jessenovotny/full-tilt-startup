@@ -9,22 +9,6 @@ section#testimonials h2 {
   color: white;
 }
 
-/*body {
-    overflow-x: hidden;
-    width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}*/
-
-html, body {
-  overflow-x: hidden;
-}
-body {
-  position: relative
-}
-
-
 
 
 /* DESKTOP */
@@ -50,4 +34,13 @@ body {
   }
 }
 
+/* PREVENT SIDEWAYS SCROLL*/
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative
+}
 
