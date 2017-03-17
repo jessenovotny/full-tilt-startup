@@ -20,6 +20,9 @@ section#testimonials h2 {
   #video-container {
     margin-top: 25px;
   }
+  form#inline_optin{
+    margin-bottom: 90px;
+  }  
 }
 
 
@@ -37,8 +40,8 @@ section#testimonials h2 {
     padding-top: 45px;
     padding-bottom: 45px;
   }
-  form#inline-offer{
-    margin-bottom: 45px;
+  form#inline_optin{
+    margin-bottom: 25px;
   }
   ul.testimonials {
     margin-bottom: 20px;

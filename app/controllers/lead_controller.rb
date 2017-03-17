@@ -1,12 +1,13 @@
 class LeadController < ApplicationController
   before_action :set_lead
+
   def contact
-    # LeadMailer.send_msg(@lead, params[:message]).deliver_now
-    @lead.update(update_lead)
+    update_lead
+    LeadMailer.send_msg(@lead, params[:message]).deliver_now
+    LeadMailer.send_msg_confirmation(@lead, params[:message]).deliver_now
   end
 
   def optin
-    # binding.pry
     LeadMailer.send_offer(@lead).deliver_now
   end
 
