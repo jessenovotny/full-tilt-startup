@@ -11,7 +11,7 @@ section#testimonials h2 {
 
 
 
-/* DESKTOP */
+/* DESKTOP ONLY */
 
 @media screen and (min-width: 480px) {
   .modal-content, .modal-dialog {
@@ -22,7 +22,8 @@ section#testimonials h2 {
   }
 }
 
-/* MOBILE */
+
+/* MOBILE ONLY */
 
 @media screen and (max-width: 480px) {
   .modal-content, .modal-dialog {
@@ -36,9 +37,13 @@ section#testimonials h2 {
     padding-top: 45px;
     padding-bottom: 45px;
   }
+  form#inline-offer{
+    margin-bottom: 45px;
+  }
   ul.testimonials {
     margin-bottom: 20px;
   }
+  /* PREVENT SIDEWAYS SCROLL*/
   html {
     overflow-x: hidden;
   }
@@ -47,7 +52,18 @@ section#testimonials h2 {
   }
 }
 
-/* PREVENT SIDEWAYS SCROLL*/
 
+/* MAP */
 
+#google-map{
+    position:relative;
+    height: 250px;
+}
 
+#google-map {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}

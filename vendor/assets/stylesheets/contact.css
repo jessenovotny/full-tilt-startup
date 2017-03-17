@@ -55,8 +55,7 @@
 
 /*Get In Touch*/
 #get-touch {
-	margin-top: 10px;
-	margin-bottom: 40px;
+	margin-bottom: 35px;
 }
 
 #get-touch .get-touch-heading {
@@ -107,19 +106,4 @@
 #get-touch .content .form .submit .btn:hover {
 	background-color: #01b1d7;
 	color: #fff;
-}
-
-
-/*Map*/
-#google-map{
-    position:relative;
-    height: 250px;
-}
-
-#google-map {
-    -webkit-filter: grayscale(100%);
-       -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-         -o-filter: grayscale(100%);
-            filter: grayscale(100%);
 }
