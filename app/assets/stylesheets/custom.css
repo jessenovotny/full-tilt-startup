@@ -1,3 +1,6 @@
+
+/* DESKTOP */
+
 @media screen and (min-width: 480px) {
   .modal-content, .modal-dialog {
     width: 500px;
@@ -7,10 +10,15 @@
   }
 }
 
+/* MOBILE */
+
 @media screen and (max-width: 480px) {
   .modal-content, .modal-dialog {
     width: 97%;
     margin: 10px auto;
+  }
+  #intro {
+    padding-top: 25px;
   }
 }
 
