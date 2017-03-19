@@ -65,7 +65,7 @@ function rotatingText() {
 
     $("#intro .rotate").textrotator({
         animation: "fade",
-        speed: 2000
+        speed: 1500
     });
 }
 
