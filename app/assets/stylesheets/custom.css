@@ -4,9 +4,11 @@ section#testimonials {
   background: #60728D;
   color: white;
 }
-
 section#testimonials h2 {
   color: white;
+}
+span.rotate {
+  font-style: italic;
 }
 
 
@@ -24,7 +26,10 @@ section#testimonials h2 {
   }
   form#inline_optin{
     margin-bottom: 90px;
-  }  
+  }
+  div.owl-item li.item {
+    padding-bottom: 70px;
+  }
 }
 
 
@@ -47,6 +52,18 @@ section#testimonials h2 {
   }
   ul.testimonials {
     margin-bottom: 20px;
+  }
+  .intro-text {
+    margin-bottom: 15px;
+  }
+  #intro_optin {
+    margin-top: 15px;
+  }
+  span.rotate {
+    font-size:28px;
+  }
+  div.owl-item li.item {
+    padding-bottom: 70px;
   }
   /* PREVENT SIDEWAYS SCROLL*/
   html {

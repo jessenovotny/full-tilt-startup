@@ -89,7 +89,7 @@ function sliders() {
 
 
         $(".testimonials").owlCarousel({
-            items: 4,
+            items: 3,
             itemsDesktopSmall: [1100, 3],
             itemsTablet: [768, 2],
             itemsMobile: [480, 1]

@@ -1,4 +1,4 @@
-<li class="item" style="padding-bottom:80px">
+<li class="item">
   <div class="testimonial same-height-always">
     <div class="text">
       <p><%= raw(testimonial.content) %></p>
@@ -6,11 +6,11 @@
     <div class="bottom">
       <div class="testimonial-icon"> <i class="pe-7s-comment"></i></div>
       <div class="name-picture">
-        <div class="col-md-8" style="padding:0">
-          <h5><%= testimonial.name %></h5>
+        <div class="col-xs-8 col-md-8" style="padding:0">
+          <h5><%= raw(testimonial.name) %></h5>
           <p><%= raw(testimonial.position) %></p>          
         </div>
-        <div class="col-md-4" style="padding:0">          
+        <div class="col-xs-4 col-md-4" style="padding:0">          
           <%= image_tag(testimonial.image_url) %>
         </div>
       </div>
