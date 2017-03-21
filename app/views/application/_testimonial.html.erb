@@ -6,9 +6,9 @@
     <div class="bottom">
       <div class="testimonial-icon"> <i class="pe-7s-comment"></i></div>
       <div class="name-picture">
-        <div class="col-xs-8 col-md-8" style="padding:0">
-          <h5><%= raw(testimonial.name) %></h5>
-          <p><%= raw(testimonial.position) %></p>          
+        <div class="col-xs-8 col-md-8" style="padding:0;margin-right:-5px;">
+          <h5><%= testimonial.name %></h5>
+          <p style="margin-left:-30px;"><%= testimonial.position %><br><%= testimonial.company %></p>
         </div>
         <div class="col-xs-4 col-md-4" style="padding:0">          
           <%= image_tag(testimonial.image_url) %>
