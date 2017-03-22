@@ -23,6 +23,13 @@ real_testimonials = [
 		content: "For over a year I worked at a desk across from Jesse building Student-Tutor to what it is now, a successful private tutoring company that services students across the country! His efforts in sales, marketing, and operations were fundamental to our growth and scalability.</p><p>Jesse's keen attention to detail, foresight, and problem-solving allowed us to streamline nearly everything we do so that little issues wouldn't get out of hand down the road."
 	},
 	{
+		name: "Chris Carew",
+		position: "Lead Software Developer",
+		company: "Edgenuity Inc",
+		image_url: "#{aws_path}/chris-c.jpg",
+		content: "Jesse knows his stuff. I've seen a number of people graduate from web development bootcamps but I am most impressed by his spirit of entrepreneurship and enthusiasm for web development. I haven't had the pleasure of working with him directly but I've seen the code for some of the things he's worked on - It's clear that he's on track to be a very successful engineer designer."
+	},
+	{
 		name: "Sarah Marie",
 		position: "Founder",
 		company: "The Bouj",
