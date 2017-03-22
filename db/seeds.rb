@@ -51,15 +51,15 @@ real_testimonials = [
 		content: "Jesse is a humble leader and outstanding businessman. He taught me a great deal about organizational efficiency and business development. If you need someone with skill sets far beyond what he may initially reveal, choose Jesse."
 	},
 	{
-		name: "John McIntyre", 
-		position: "CEO",
-		company: "TransTech",
-		image_url: "person-1.jpg",
-		content: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
+		name: "Andrea Blake", 
+		position: "Travel Blogger",
+		company: "Southwest Sampler",
+		image_url: "#{aws_path}/andrea-b.jpg",
+		content: "Jesse is phenomenal at what he does - he is very knowledgeable in both web development and digital marketing. Never have I had anyone go into as much detail as he did for me in the one hour I spent with him. Organized, efficient and over all crystal clear notes. I now feel more prepared than ever, thanks to Jesse."
 	}
 ]
 
 
 real_testimonials.each do |testimonial|
-	Testimonial.create(testimonial)
+	Testimonial.find_or_create_by(testimonial)
 end
