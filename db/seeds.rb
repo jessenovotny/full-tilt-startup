@@ -27,7 +27,7 @@ real_testimonials = [
 		position: "Lead Software Developer",
 		company: "Edgenuity Inc",
 		image_url: "#{aws_path}/chris-c.jpg",
-		content: "Jesse knows his stuff. I've seen a number of people graduate from web development bootcamps but I am most impressed by his spirit of entrepreneurship and enthusiasm for web development. I haven't had the pleasure of working with him directly but I've seen the code for some of the things he's worked on - It's clear that he's on track to be a very successful engineer designer."
+		content: "Jesse knows his stuff. I've seen a number of people graduate from web development bootcamps but I am most impressed by his spirit of entrepreneurship and enthusiasm for web development.</p><p>I haven't had the pleasure of working with him directly but I've seen the code for some of the things he's worked on - It's clear that he's on track to be a very successful engineer designer."
 	},
 	{
 		name: "Sarah Marie",
@@ -41,7 +41,7 @@ real_testimonials = [
 		position: "Investment Professional",
 		company: "Sunstone Financial",
 		image_url: "#{aws_path}/reid-s.jpg",
-		content: "Jesse has a wonderful ability of making things that seem complicated become easy, simple and beautiful. He has a designers eye, and is very creative when it comes to web and app development. One thing that sets Jesse apart is his ability to think like a business owner and get a project done. I have worked with Jesse in the past, and will continue to send my personal business and referral business to him!"
+		content: "Jesse has a wonderful ability of making things that seem complicated become easy, simple and beautiful. He has a designers eye, and is very creative when it comes to web and app development.</p><p>One thing that sets Jesse apart is his ability to think like a business owner and get a project done. I have worked with Jesse in the past, and will continue to send my personal business and referral business to him!"
 	},
 		
 	{
