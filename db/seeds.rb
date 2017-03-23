@@ -37,6 +37,14 @@ real_testimonials = [
 		content: "Nothing short of impressive having a full stack developer taking full ownership of immensely detailed work.</p><p>Jesse has been fully responsive in incorporating all requests and feedback involving design and functionality for the Bouj®. Jesse consistently goes above and beyond with adding valuable insight for application performance, scaling and design.</p><p>It is a pleasure having a software developer that provides real-time progress updates on a consistent basis."
 	},
 	{
+		name: "Reid Simpson",
+		position: "Investment Professional",
+		company: "Sunstone Financial",
+		image_url: "#{aws_path}/reid-s.jpg",
+		content: "Jesse has a wonderful ability of making things that seem complicated become easy, simple and beautiful. He has a designers eye, and is very creative when it comes to web and app development. One thing that sets Jesse apart is his ability to think like a business owner and get a project done. I have worked with Jesse in the past, and will continue to send my personal business and referral business to him!"
+	},
+		
+	{
 		name: "Laura Petersen",
 		position: "Founder",
 		company: "Podtent Marketing",
