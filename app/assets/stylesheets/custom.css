@@ -30,8 +30,13 @@ span.rotate {
   div.owl-item li.item {
     padding-bottom: 70px;
   }
-/*  .container.nav-container {
-    margin:0 4p;
+  img#desktop-logo{
+    max-width: 450px;    
+  }
+/*  @media screen and (min-width: 1200px){    
+    .container.nav-container {
+      width: 1210px;
+    }
   }*/
 }
 
