@@ -11,6 +11,20 @@ span.rotate {
   font-style: italic;
 }
 
+.service-button {
+  display:block;
+  margin:0 auto 24px auto;
+  font-size:28px;
+  width:355px
+}
+.service-button img  {
+  height: 40px;
+  margin:5px 0;
+}
+.service-button span {
+  vertical-align:middle;  
+}
+
 
 
 
