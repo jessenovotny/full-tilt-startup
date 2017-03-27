@@ -71,8 +71,17 @@ real_testimonials = [
 		company: "Southwest Sampler",
 		image_url: "#{aws_path}/andrea-b.jpg",
 		content: "Jesse is phenomenal at what he does - he is very knowledgeable in both web development and digital marketing. Never have I had anyone go into as much detail as he did for me in the one hour I spent with him. Organized, efficient and over all crystal clear notes. I now feel more prepared than ever, thanks to Jesse."
+	},
+	{
+		name: "Alix Prappas", 
+		position: "Founder",
+		company: "Sturdy Roots",
+		image_url: "#{aws_path}/alix-p.jpg",
+		content: "Jesse is a master of digital marketing. He has a clear understanding of: design, messaging, and the sales funnel process. If you want clarity and results in your digital marketing, he is a great helper."
 	}
 ]
+
+
 
 
 real_testimonials.each do |testimonial|
