@@ -84,7 +84,7 @@ real_testimonials = [
 		position: "Founder",
 		company: "Sturdy Roots",
 		image_url: "#{aws_path}/alix-p.jpg",
-		content: "Jesse is a master of digital marketing. He has a clear understanding of: design, messaging, and the sales funnel process. If you want clarity and results in your digital marketing, he is a great helper."
+		content: "Jesse is a master of digital marketing. He has a clear understanding of: design, messaging, and the sales funnel process.</p><p>If you want clarity and results in your digital marketing, he is a great helper."
 	}
 ]
 
