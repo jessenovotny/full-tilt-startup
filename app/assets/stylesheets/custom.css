@@ -11,6 +11,10 @@ span.rotate {
   font-style: italic;
 }
 
+section.signup-section {
+  padding-bottom: 90px;
+}
+
 .service-button {
   display:block;
   margin:0 auto 24px auto;
@@ -29,11 +33,14 @@ span.rotate {
   text-decoration: none;
   width: 410px;
 }
+#inline-optin {
+  width: 300px;
+  margin: 0 auto;
+}
 
 button.close {
   margin: 5px 8px;
 }
-
 .modal-content ul {
   font-size: 18px;
   padding-left: 20px;
