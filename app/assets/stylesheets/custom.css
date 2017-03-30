@@ -102,11 +102,11 @@ button.close {
     padding-top: 45px;
     padding-bottom: 45px;
   }
-  form#inline_optin{
-    margin-bottom: 25px;
-  }
   ul.testimonials {
     margin-bottom: 20px;
+  }
+  form#inline_optin{
+    margin-bottom: 25px;
   }
   .intro-text {
     margin-bottom: 15px;
@@ -114,11 +114,15 @@ button.close {
   #intro_optin {
     margin-top: 15px;
   }
-  span.rotate {
+  span.rotate { /*text rotator*/
     font-size:28px;
   }
-  div.owl-item li.item {
+  div.owl-item li.item { 
     padding-bottom: 70px;
+  }
+  #mobile-logo{
+    padding: 0;
+    margin-top: -5px;
   }
   /* PREVENT SIDEWAYS SCROLL*/
   html {
