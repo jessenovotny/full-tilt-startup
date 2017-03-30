@@ -59,13 +59,6 @@ real_testimonials = [
 		content: "After the devastating 2011 earthquake in Christchurch New Zealand, Greenpeace had to cease all fundraising efforts in the area. As the Team Leader at the time, I was relocated to Auckland and was eager to return home. After a few months, Jesse was hired and offered to help me pilot a program to test the areas fundraising viability.</p><p>Thanks to Jesse's assistance and unwavering commitment, I was able to establish an extremely successful team to once again campaign for Greenpeace in Christchurch NZ."
 	},
 	{
-		name: "Tony Caldwell", 
-		position: "Business Analyst",
-		company: "Pacific Change Semiconductors",
-		image_url: "#{aws_path}/tony-c.jpg", 
-		content: "Jesse is a humble leader and outstanding businessman. He taught me a great deal about organizational efficiency and business development. If you need someone with skill sets far beyond what he may initially reveal, choose Jesse."
-	},
-	{
 		name: "Andrea Blake", 
 		position: "Travel Blogger",
 		company: "Southwest Sampler",
@@ -78,6 +71,13 @@ real_testimonials = [
 		company: "Dezapp",
 		image_url: "#{aws_path}/arash-t.jpg",
 		content: "I've seen Jesse's progress in web development skyrocket since back when he could barely read a single page of basic css. He's a guy I've always had a pleasure talking shop with and from my experience, he's got the knowledge and tools to accomplish anything he puts his mind to. I appreciate that he comprehends the technical aspects of a project as well as the importance of UX from a digital marketing standpoint. As for his code, I can tell you it looks good."
+	},
+	{
+		name: "Tony Caldwell", 
+		position: "Business Analyst",
+		company: "Pacific Change Semiconductors",
+		image_url: "#{aws_path}/tony-c.jpg", 
+		content: "Jesse is a humble leader and outstanding businessman. He taught me a great deal about organizational efficiency and business development. If you need someone with skill sets far beyond what he may initially reveal, choose Jesse."
 	},
 	{
 		name: "Alix Prappas", 
