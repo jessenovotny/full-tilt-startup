@@ -30,6 +30,17 @@ span.rotate {
   width: 410px;
 }
 
+button.close {
+  margin: 5px 8px;
+}
+
+.modal-content ul {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.modal-content li {
+  margin-bottom: 4px;
+}
 
 
 
@@ -38,7 +49,14 @@ span.rotate {
 
 @media screen and (min-width: 480px) {
   .modal-content, .modal-dialog {
-    width: 500px;
+    width: 800px;
+  }
+  .modal-body {
+    padding: 30px;
+  }
+  .modal-body input {
+    width: 75%;
+    margin: auto;
   }
   #video-container {
     margin-top: 25px;
@@ -66,6 +84,9 @@ span.rotate {
   .modal-content, .modal-dialog {
     width: 97%;
     margin: 10px auto;
+  }
+  .modal-content h4 {
+    margin-top: 30px;
   }
   #intro {
     padding-top: 25px;

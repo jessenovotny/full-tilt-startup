@@ -6,24 +6,32 @@
   class="modal fade">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
-      <div class="modal-header">        
+      <!-- <div class="modal-header">         -->
         <button type="button" 
         data-dismiss="modal" 
         aria-hidden="true" 
         class="close" 
         id="close-modal">×</button>        
-        <h4 class="modal-title text-center">Mastering your Digital Presence Playbook</h4>      
-      </div>
+        <!-- <h4 class="modal-title text-center">Mastering your Digital Presence Playbook</h4>       -->
+      <!-- </div> -->
       
       <div class="modal-body">
-        
-        <p>This FREE guide will...</p>
-        
-        <ul>
-          <li>Show you how to improve traffic and online conversions.</li>
-          <li>Provide direction on web development and marketing strategies.</li>
-          <li>Help you vet me for your next full time or contract position.</li>
-        </ul>
+        <div class="row">        
+          <div class="col-sm-6">
+            <%= image_tag("playbook.png", width: "100%", style: "max-width:385px;") %>
+          </div>
+
+          <div class="col-sm-6">
+            <!-- <p>This FREE guide will...</p> -->
+            <h4 class="modal-title text-center">Here's why...</h4><br>
+            <ul>
+              <li>Improve traffic and online conversions.</li>
+              <li>Find direction on web development and marketing strategies.</li>
+              <li>Vet me for your next full time or contract position.</li>
+            </ul>
+            
+          </div>
+        </div>
         <br>
 
         <div id="modal_optin_sent"></div>
