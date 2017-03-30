@@ -1,17 +1,5 @@
 Testimonial.destroy_all
 
-# testi = {
-#   name: "John McIntyre", 
-#   position: "CEO, TransTech",
-#   image_url: "person-1.jpg",
-#   content: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections."
-# }
-
-
-# 7.times do 
-#   Testimonial.create(testi)
-# end
-
 aws_path = "https://s3-us-west-2.amazonaws.com/full-tilt/testimonials"
 
 real_testimonials = [
@@ -87,8 +75,6 @@ real_testimonials = [
 		content: "Jesse is a master of digital marketing. He has a clear understanding of: design, messaging, and the sales funnel process.</p><p>If you want clarity and results in your digital marketing, he is a great helper."
 	}
 ]
-
-
 
 
 real_testimonials.each do |testimonial|
