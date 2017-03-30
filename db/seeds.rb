@@ -73,6 +73,13 @@ real_testimonials = [
 		content: "Jesse is phenomenal at what he does - he is very knowledgeable in both web development and digital marketing. Never have I had anyone go into as much detail as he did for me in the one hour I spent with him. Organized, efficient and over all crystal clear notes. I now feel more prepared than ever, thanks to Jesse."
 	},
 	{
+		name: "Arash Tadayon", 
+		position: "CEO",
+		company: "Dezapp",
+		image_url: "#{aws_path}/arash-t.jpg",
+		content: "I've seen Jesse's progress in web development skyrocket since back when he could barely read a single page of basic css. He's a guy I've always had a pleasure talking shop with and from my experience, he's got the knowledge and tools to accomplish anything he puts his mind to. I appreciate that he comprehends the technical aspects of a project as well as the importance of UX from a digital marketing standpoint. As for his code, I can tell you it looks good."
+	},
+	{
 		name: "Alix Prappas", 
 		position: "Founder",
 		company: "Sturdy Roots",
