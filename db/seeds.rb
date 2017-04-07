@@ -25,6 +25,13 @@ real_testimonials = [
 		content: "Nothing short of impressive having a full stack developer taking full ownership of immensely detailed work.</p><p>Jesse has been fully responsive in incorporating all requests and feedback involving design and functionality for the Bouj®. Jesse consistently goes above and beyond with adding valuable insight for application performance, scaling and design.</p><p>It is a pleasure having a software developer that provides real-time progress updates on a consistent basis."
 	},
 	{
+		name: "Payton LaCivita", 
+		position: "Director of Business Development",
+		company: "MiaBella",
+		image_url: "#{aws_path}/payton-l.jpg",
+		content: "Jesse is one of the super rare breeds that not only knows and understands how to develop a web presence from a technical perspective but also clearly understands what it takes to drive qualified traffic and actually convert that traffic into customers.</p><p>His breadth of knowledge far surpasses other developers or consultants. Jesse has a knack of mapping out the process of your business from the perspective of the customer making him someone who over delivers your expectations every time."
+	},
+	{
 		name: "Reid Simpson",
 		position: "Investment Professional",
 		company: "Sunstone Financial",
@@ -73,7 +80,7 @@ real_testimonials = [
 		company: "Sturdy Roots",
 		image_url: "#{aws_path}/alix-p.jpg",
 		content: "Jesse is a master of digital marketing. He has a clear understanding of: design, messaging, and the sales funnel process.</p><p>If you want clarity and results in your digital marketing, he is a great helper."
-	}
+	},
 ]
 
 
