@@ -38,7 +38,6 @@ real_testimonials = [
 		image_url: "#{aws_path}/reid-s.jpg",
 		content: "Jesse has a wonderful ability of making things that seem complicated become easy, simple and beautiful. He has a designers eye, and is very creative when it comes to web and app development.</p><p>One thing that sets Jesse apart is his ability to think like a business owner and get a project done. I have worked with Jesse in the past, and will continue to send my personal business and referral business to him!"
 	},
-		
 	{
 		name: "Laura Petersen",
 		position: "Founder",
